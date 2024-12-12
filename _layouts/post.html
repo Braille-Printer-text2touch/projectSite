@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/print.css' | relative_url }}" media="print">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/css/styles.css">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    {% seo %}
+    {% include head-custom.html %}
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+          <h2>{{ page.braille-title }}</h2>
+          <p>by {{ page.author | default: site.author }}</p>
+          <button onclick="window.history.back()" onmouseover="this.innerText='Back'" onmouseleave="this.innerText='⠠⠃⠁⠉⠅'">⠠⠃⠁⠉⠅</button>
+        </header>
+        <hr>
+        <section id="main_content">
+          {{ content }}
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
