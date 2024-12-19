@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Text2Type ⠠⠞⠑⠭⠞⠼⠃⠠⠞⠽⠏⠑
+title: Text2Touch ⠠⠞⠑⠭⠞⠼⠃⠠⠞⠽⠏⠑
 permalink: /
 ---
 ## Featured

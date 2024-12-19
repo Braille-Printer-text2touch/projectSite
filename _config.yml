@@ -13,15 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Text2Type
+title: Text2Touch
 email: kenneth.howes53@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The website for the Text2Type projects. Text2Type is working 
+  The website for the Text2Touch project. Text2Touch is working 
   on making affordible and easy-to-use braille printers.
 baseurl: "/projectSite/" # the subpath of your site, e.g. /blog
 url: "https://braille-printer-text2type.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-domain: braille-printer-text2type.github.io
-author: Text2Type Team
+domain: braille-printer-text2touch.github.io
+author: Text2Touch Team
 
 # Build settings
 markdown: kramdown
@@ -29,6 +29,8 @@ remote_theme: pages-themes/tactile@v0.2.0
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+
+download_link_base: https://raw.githubusercontent.com/Braille-Printer-text2touch/projectSite/refs/heads/main
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
