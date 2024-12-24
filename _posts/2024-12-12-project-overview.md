@@ -7,7 +7,8 @@ featured: true
 ---
 ## Design
 
-The overarching infrastructure of Text2Type is as follows.
+The overarching infrastructure of Text2Type is as follows. A more detailed report is 
+[documented here](#detailed-vision).
 
 ![Design Diagram]({{ 'assets/images/design-diagram.png' | relative_url }})
 
@@ -30,4 +31,12 @@ is what is offered to run [Adafruit's I2C stepper motor hat](https://learn.adafr
 
 Our progress in implementing this plan is tracked through our "progress-update" posts. The most recent one is featured at the top 
 of our [home page]({{ "/" | relative_url }}).
+
+## Detailed Vision
+
+<iframe 
+  src="https://docs.google.com/document/d/e/2PACX-1vQ1KiZKPW1MZO9N2mxd16NLfKe_68Xyogsh7kRN2TdJ_rGbmD0gpX5TwScw9p_luo2CAA_zY8jSRHqK/pub?embedded=true"
+  width="100%"
+  height="850vh"
+></iframe>
 
