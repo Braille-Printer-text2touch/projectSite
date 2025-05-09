@@ -3,7 +3,6 @@ layout: post
 title:  "12/13/24 Progress Update"
 braille-title: "⠼⠁⠃⠸⠌⠼⠁⠉⠸⠌⠼⠃⠙⠀⠠⠏⠗⠕⠛⠗⠑⠎⠎⠀⠠⠥⠏⠙⠁⠞⠑"
 date:   2024-12-12 8:25:00 -0500
-featured: true
 ---
 
 The slides presented cooresponding to this information can be [found here]({{ site.download_link_base }}/assets/misc/12-13-presentation.pdf)
